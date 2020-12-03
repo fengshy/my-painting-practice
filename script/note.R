@@ -24,6 +24,7 @@
 #scale_colour_brewer(palette = '') 调用调色板
 #position_dodge(0.2) 错开位置
 #area chart use geom_chart
+#利用geom_ribbon(aes(ymin = , ymax = ),colour = ,fill = ,alpha = )添加置信域
 
 
 
