@@ -25,7 +25,15 @@
 #position_dodge(0.2) 错开位置
 #area chart use geom_chart
 #利用geom_ribbon(aes(ymin = , ymax = ),colour = ,fill = ,alpha = )添加置信域
-
+#使用coord_flip()来翻转坐标轴
+#使用scale_y_continuous(limits = c(0,10),breaks = c(1,5,8,10)) 调整坐标轴
+#调转y轴的顺序 scale_y_reverse()
+#调整离散型变量的位置 scale_x_discrete(limits = c('trt1', 'trt2', 'ctrl'))
+#设置背景刻度线的位置 scale_y_continuous(breaks = c())
+#换标签的名字scale_y_continuous(breaks = c(), labels = c())
+#使用xlab()或ylab()来修改坐标轴标签的文本
+#使用\n换行
+#使用theme(axis.title.x = element_blank())隐藏x轴标签。
 
 
 
